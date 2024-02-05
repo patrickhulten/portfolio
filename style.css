@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-color: black;
+  margin: 10px;
+  padding: 10px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: "Sofia", sans-serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.sub {
+  font-family: "Press start 2p", cursive;
+  font-size: 2.5rem;
+}
+
+hr {
+  width: 75%;
+}
+
+a:hover {
+  color: red;
+  font-size: 20px;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 15px 0;
+  border-radius: 5px;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar li {
+  display: inline;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-bar a:hover {
+  background-color: #555;
+}
+
+.hero {
+  color: white;
+  height: 95vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 1)
+    ),
+    url("img/dev.jpg");
+  background-position: top;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: auto;
+  padding-bottom: 20px;
+}
+
+.hero > h1,
+h2 {
+  margin-bottom: 20px;
+}
+/*
+.fa-github {
+  display: inline-block;
+}
+*/
+.skills {
+  text-align: center;
+}
+
+.skills h1,
+h2 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+.skills i {
+  color: white;
+  font-size: 100px; /* Adjust the font size for the icons */
+  margin-top: 100px;
+  width: 30%;
+}
+
+img {
+  max-width: 40%;
+  max-height: 40%;
+  margin: 10px;
+  padding: 10px;
+}
+
+small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  text-align: center;
+}
+
+li li:last-child {
+  padding-bottom: 20px;
+}
